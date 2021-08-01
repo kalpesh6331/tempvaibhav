@@ -3,6 +3,7 @@ pipeline {
         label 'master'
     }
 
+    stages {
         stage('Execute') {
             steps {
                 sh '''
