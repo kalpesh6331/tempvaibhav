@@ -9,6 +9,7 @@ pipeline {
                 sh '''
                 ls
                 python app.py
+                sleep 1m
                 '''
             }
         }
